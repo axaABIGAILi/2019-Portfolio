@@ -1,5 +1,5 @@
 
-
+@import url('https://fonts.googleapis.com/css?family=Contrail+One&display=swap');
 /* Color Palette
 #FFDD99 - pale yellow, background
 #FFF4DE - white-yellow, secondary light background
@@ -7,15 +7,17 @@
 */
 
 body {
-    background-color: #FFDD99;
-    color: #261A00;
+    background-color: #fff;
+}
+
+h1, h2, h3, h4, h5 {
+    font-family: 'Contrail One', cursive;
 }
 
 /*Styling for the cards & images in cards*/
 .card {
     border: none;
-    background-color: #fff4de;
-    color: #261A00;
+    background-color: #fff;
 }
 
 #profileimg {
@@ -38,14 +40,14 @@ body {
     color: #FFAA00;
 }
 .nav-link:hover {
-    color: #fff;
+    color: #000;
     background-color: #FFAA00;
 }
 
 .left, .right {
     float: left;
-    background-color: #fff4de;
-    border: 1px dashed #FFAA00;
+    background-color: #fff;
+    border: 1px solid #ccc;
     margin: 10px;
     box-shadow: 8px 8px #FFAA00;
     height: 550px;
@@ -112,7 +114,7 @@ form {
 
 #emailbtn:hover {
     background-color: #FFAA00;
-    color: #fff;
+    color: #000;
     border-color: #fff;
 }
 
@@ -133,9 +135,11 @@ form {
 @media (min-width: 768px) {
     .left, .right {
         height: 550px;
+        overflow: auto;
     }
 
     #profilecard {
         width: 100%;
     }
+
  }
