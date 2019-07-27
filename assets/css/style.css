@@ -1,14 +1,18 @@
 /* Color Palette
 #FFDD99 - pale yellow, background
+#FFF4DE - white-yellow, secondary light background
+#261A00 - dark brown, text
 */
 
 body {
     background-color: #FFDD99;
+    color: #261A00;
 }
 
 .card {
-    background-color: #FFDD99;
     border: none;
+    background-color: #fff4de;
+    color: #261A00;
 }
 
 #profileimg {
@@ -23,9 +27,18 @@ body {
     margin-top: 50px;
 }
 
+.nav-link {
+    color: #FFAA00;
+}
+.nav-link:hover {
+    color: #fff4de;
+    background-color: #FFAA00;
+}
+
 .left, .right {
     float: left;
-    border: 1px solid #FFAA00;
+    background-color: #fff4de;
+    border: 1px dashed #FFAA00;
     margin: 10px;
 }
 
