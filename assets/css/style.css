@@ -1,4 +1,4 @@
-@import url('https://fonts.googleapis.com/css?family=Open+Sans|Press+Start+2P&display=swap');
+
 
 /* Color Palette
 #FFDD99 - pale yellow, background
@@ -23,6 +23,10 @@ body {
     margin: 0px auto;
     width: 60%;
     height: auto;
+}
+
+#profilecard {
+    width: 16rem;
 }
 
 /*General styling*/
@@ -111,3 +115,27 @@ form {
     color: #fff;
     border-color: #fff;
 }
+
+/*Media queries*/
+
+@media (min-width: 1200px) {
+    #profilecard {
+        width: 16rem;
+    }
+}
+
+@media (min-width: 992px) { 
+    #profilecard {
+        width: 13rem;
+    }
+}
+
+@media (min-width: 768px) {
+    .left, .right {
+        height: auto;
+    }
+
+    #profilecard {
+        width: 100%;
+    }
+ }
