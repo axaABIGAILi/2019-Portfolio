@@ -132,7 +132,7 @@ form {
 
 @media (min-width: 768px) {
     .left, .right {
-        height: auto;
+        height: 550px;
     }
 
     #profilecard {
