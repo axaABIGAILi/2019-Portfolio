@@ -63,6 +63,7 @@ body {
     font-size: 11px;
     float: left;
     text-align: justify;
+    overflow: hidden;
 }
 
 #gall-middle {
@@ -73,6 +74,12 @@ body {
 #gallery-container {
     overflow: scroll;
     padding: 10px;
+}
+
+.portfolioimg {
+    width: 200px;
+    height: 150px;
+    object-fit: cover;
 }
 
 /*Styling for the code images*/
