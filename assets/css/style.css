@@ -84,3 +84,20 @@ body {
     height: auto;
     margin: 2%;
 }
+
+/*Form styling*/
+form {
+    margin: 5px;
+}
+
+#emailbtn {
+    background-color: #fff;
+    color: #FFAA00;
+    border: 1px solid #FFAA00;
+}
+
+#emailbtn:hover {
+    background-color: #FFAA00;
+    color: #fff;
+    border-color: #fff;
+}
