@@ -53,7 +53,7 @@ body {
 
 .right {
     padding: 20px;
-    overflow: scroll;
+    overflow: auto;
 }
 
 /*Code specs for the portfolio*/
