@@ -21,12 +21,11 @@ body {
 #profileimg {
     padding-top: 20px;
     margin: 0px auto;
-    width: 50%;
+    width: 60%;
     height: auto;
 }
 
 /*General styling*/
-
 .container {
     margin-top: 50px;
 }
@@ -45,6 +44,7 @@ body {
     border: 1px dashed #FFAA00;
     margin: 10px;
     box-shadow: 8px 8px #FFAA00;
+    height: 550px;
 }
 
 .left {
@@ -53,7 +53,6 @@ body {
 
 .right {
     padding: 20px;
-    overflow: auto;
 }
 
 /*Code specs for the portfolio*/
@@ -63,6 +62,11 @@ body {
     font-size: 11px;
     float: left;
     overflow: hidden;
+}
+
+#gall-outer {
+    max-height: 90%;
+    overflow: auto;
 }
 
 #gall-middle {
