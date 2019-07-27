@@ -1,3 +1,5 @@
+@import url('https://fonts.googleapis.com/css?family=Open+Sans|Press+Start+2P&display=swap');
+
 /* Color Palette
 #FFDD99 - pale yellow, background
 #FFF4DE - white-yellow, secondary light background
@@ -22,8 +24,6 @@ body {
 }
 
 .container {
-    /*padding: 10%;*/
-    border: 1px solid black;
     margin-top: 50px;
 }
 
@@ -31,7 +31,7 @@ body {
     color: #FFAA00;
 }
 .nav-link:hover {
-    color: #fff4de;
+    color: #fff;
     background-color: #FFAA00;
 }
 
@@ -44,4 +44,21 @@ body {
 
 .left {
     padding: 10px;
+}
+
+.right {
+    text-align: center;
+    padding: 10px;
+}
+
+.gallery-card {
+    background-color: #fff;
+    font-size: 11px;
+    float: left;
+    text-align: justify;
+    margin: 5px;
+}
+
+#gallery-container {
+    overflow: scroll;
 }
