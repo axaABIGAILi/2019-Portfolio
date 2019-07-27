@@ -49,16 +49,23 @@ body {
 .right {
     text-align: center;
     padding: 10px;
+    overflow: scroll;
 }
 
 .gallery-card {
     background-color: #fff;
+    width: 30%;
     font-size: 11px;
     float: left;
     text-align: justify;
-    margin: 5px;
+}
+
+#gall-middle {
+    margin-left: 5%;
+    margin-right: 5%;
 }
 
 #gallery-container {
     overflow: scroll;
+    padding: 10px;
 }
