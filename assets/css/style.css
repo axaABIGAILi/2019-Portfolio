@@ -11,6 +11,7 @@ body {
     color: #261A00;
 }
 
+/*Styling for the cards & images in cards*/
 .card {
     border: none;
     background-color: #fff4de;
@@ -18,10 +19,13 @@ body {
 }
 
 #profileimg {
+    padding-top: 20px;
     margin: 0px auto;
     width: 50%;
     height: auto;
 }
+
+/*General styling*/
 
 .container {
     margin-top: 50px;
@@ -40,6 +44,7 @@ body {
     background-color: #fff4de;
     border: 1px dashed #FFAA00;
     margin: 10px;
+    box-shadow: 8px 8px #FFAA00;
 }
 
 .left {
@@ -47,11 +52,11 @@ body {
 }
 
 .right {
-    text-align: center;
-    padding: 10px;
+    padding: 20px;
     overflow: scroll;
 }
 
+/*Code specs for the portfolio*/
 .gallery-card {
     background-color: #fff;
     width: 30%;
@@ -68,4 +73,14 @@ body {
 #gallery-container {
     overflow: scroll;
     padding: 10px;
+}
+
+/*Styling for the code images*/
+#code-icons{
+    margin: 0 auto;
+}
+.codeimg {
+    width: 15%;
+    height: auto;
+    margin: 2%;
 }
