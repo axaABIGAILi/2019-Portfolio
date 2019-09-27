@@ -132,10 +132,15 @@ form {
     }
 }
 
-@media (min-width: 768px) {
+@media only screen and (min-width: 768px) {
     .left, .right {
         height: 550px;
         overflow: auto;
+    }
+
+    #profileimage {
+        width: 20%;
+        height: auto;
     }
 
     #profilecard {
